@@ -24,13 +24,14 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/ваш-репозиторий.git
-cd ваш-репозиторий
+
 ```
 
 2. Установите зависимости:
 ```bash
 npm init -y
 npm install express express-session
+npm install express cookie-parser
 ```
 
 3. Запустите сервер:
